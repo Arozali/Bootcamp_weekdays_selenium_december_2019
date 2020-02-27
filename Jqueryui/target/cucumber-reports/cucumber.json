@@ -1,0 +1,47 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-27T01:25:58.939Z",
+        "line": 19,
+        "name": "screenshot",
+        "description": "",
+        "id": "jqueryui-home-page;screenshot",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "i verify screenshot on page",
+            "match": {
+              "location": "stepDefination.PageStepDefination.i_verify_screenshot_on_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "it took screenshot page",
+            "match": {
+              "location": "stepDefination.PageStepDefination.it_took_screenshot_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Jqueryui home page",
+    "description": "",
+    "id": "jqueryui-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/File.feature",
+    "tags": []
+  }
+]
